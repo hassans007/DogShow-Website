@@ -1,0 +1,95 @@
+body {
+    background-color: hsla(0, 100%, 20%, 0);
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpapercave.com/wp/wp5502431.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #2e3555;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+header h1 {
+    color: #fff;
+}
+
+main {
+    margin: 20px auto; 
+    max-width: 1200px;
+    padding: 30px;
+    background-color: #ffffffdc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    background-color: #636fa1;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #6d6d6d;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #636fa1;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tr:hover {
+    background-color: #ffffff;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: #2e3555;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif; /* Font family for buttons */
+}
+
+h1 {
+    color: #000000;
+}
+
+p {
+    margin-bottom: 20px;
+}
